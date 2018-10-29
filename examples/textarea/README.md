@@ -18,4 +18,4 @@ npm run build && npm start
 ```
 
 ## Run app in browser
-Load [http://localhost:8080](http://localhost:8080)
+Load [http://localhost:3000](http://localhost:3000)

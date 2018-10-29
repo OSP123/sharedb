@@ -34,6 +34,10 @@ function startServer() {
     backend.listen(stream);
   });
 
-  server.listen(8080);
-  console.log('Listening on http://localhost:8080');
+  app.set('port', process.env.PORT || 3000)
+
+// set our app to listen to the port we set above
+  app.listen(app.get('port'), function () {
+    console.log(`Listening on port: ${app.get('port')}`)
+  })
 }
