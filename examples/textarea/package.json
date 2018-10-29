@@ -4,9 +4,9 @@
   "description": "A simple client/server app using ShareDB and WebSockets",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "build": "mkdir -p static/dist/ && ./node_modules/.bin/browserify client.js -o static/dist/bundle.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nate Smith",
   "contributors": [
